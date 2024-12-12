@@ -1,0 +1,54 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+.app {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+  gap: 20px;
+  justify-content: flex-start;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.task-form {
+  width: 45%; /* Form takes up 45% of the width */
+}
+
+.task-list {
+  width: 50%; /* Task list takes up 50% of the width */
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input,
+textarea,
+button {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

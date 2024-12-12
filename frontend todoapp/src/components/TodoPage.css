@@ -1,0 +1,17 @@
+/* Add this to your existing CSS file (e.g., App.css) */
+.todo-container {
+    display: flex;
+    justify-content: space-between; /* Space between the form and task list */
+    gap: 20px; /* Add space between the components */
+  }
+  
+  .task-form {
+    flex: 1; /* Make task form take available space */
+    max-width: 45%; /* Limit the width of the form */
+  }
+  
+  .task-list {
+    flex: 1; /* Make task list take available space */
+    max-width: 50%; /* Limit the width of the task list */
+  }
+  
