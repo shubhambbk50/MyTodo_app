@@ -1,7 +1,7 @@
 export default {
   server: {
     proxy: {
-      '/api': 'https://mytodo-app-backend-zb52.onrender.com',
+      '/api': 'https://mytodo-app-backend-j4pf.onrender.com',
     },
   },
 };
