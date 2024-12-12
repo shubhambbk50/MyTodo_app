@@ -13,10 +13,7 @@ const PORT = process.env.PORT || 4000;
 
 // CORS middleware configuration
 const corsOptions = {
-  origin: (origin, callback) => {
-    // Allow all origins, but with credentials enabled
-    callback(null, true);  // Accept all origins
-  },
+  origin: 'https://mytodo-app-frontend.onrender.com',
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
