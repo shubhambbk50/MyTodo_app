@@ -1,7 +1,7 @@
 export default {
   server: {
     proxy: {
-      '/api': 'http://localhost:3000',
+      '/api': 'https://mytodo-app-backend-zb52.onrender.com',
     },
   },
 };
