@@ -13,11 +13,15 @@ const PORT = process.env.PORT || 4000;
 
 // CORS middleware configuration
 const corsOptions = {
-  origin: '*',  // Match frontend URL
+  origin: (origin, callback) => {
+    // Allow all origins, but with credentials enabled
+    callback(null, true);  // Accept all origins
+  },
   methods: ['GET', 'POST', 'PUT', 'DELETE'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
 };
+
 
 app.use(cors(corsOptions));  // Apply CORS middleware
 
