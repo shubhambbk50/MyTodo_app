@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { login } from '../services/authService'; // Import login service
 import { useNavigate } from 'react-router-dom'; // Use navigate instead of useHistory
 import { Link } from 'react-router-dom'; // Import Link for sign-up navigation
-import './Login.css'; // Import the CSS file
+import './login.css'; // Import the CSS file
 
 const Login = () => {
   const [username, setUsername] = useState('');

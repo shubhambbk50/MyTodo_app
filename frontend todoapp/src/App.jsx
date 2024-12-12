@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Routes, Route, useNavigate } from "react-router-dom";
-import Login from "./components/Login";
+import Login from "./components/login";
 import Signup from "./components/Signup";
 import Todo from "./components/TodoPage";
 import Navbar from "./components/Navbar"; // Import Navbar
