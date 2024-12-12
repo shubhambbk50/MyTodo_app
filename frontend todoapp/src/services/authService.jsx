@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Base URL for your backend API
-const API_URL = import.meta.env.VITE_API_URL || 'https://mytodo-app-backend-pxhf.onrender.com';
+const API_URL = import.meta.env.VITE_API_URL || 'https://mytodo-app-backend-pxhf.onrender.com/api/v1';
 
 // Function for user login
 export const login = async (username, password) => {

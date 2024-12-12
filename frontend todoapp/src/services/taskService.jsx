@@ -2,7 +2,7 @@ import axios from 'axios';
 import { getAuthHeaders } from './authService';  // Import the function that returns the auth token in headers
 
 // Use Vite's environment variable system
-const API_URL = import.meta.env.VITE_API_URL || 'https://mytodo-app-backend-pxhf.onrender.com';
+const API_URL = import.meta.env.VITE_API_URL || 'https://mytodo-app-backend-pxhf.onrender.com/api/v1';
 
 // Add Task API call
 export const addTask = async (formData) => {
